@@ -1,5 +1,6 @@
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins",
+ sans-serif;
   color: #0c0c0c;
   background-color: #ffffff;
 }
@@ -56,8 +57,8 @@ body {
 
 .sub_page .header_section {
   position: unset;
-  background: -webkit-gradient(linear, left top, right top, color-stop(75%, transparent), color-stop(75%, #240a5e));
-  background: linear-gradient(to right, transparent 75%, #240a5e 75%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(75%, transparent), color-stop(75%, #C40C0C));
+  background: linear-gradient(to right, transparent 75%, #C40C0C 75%);
 }
 
 .header_section {
@@ -85,7 +86,8 @@ body {
   padding: 0px 25px;
   color: #fefeff;
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto",
+ sans-serif;
 }
 
 .custom_menu-btn {
@@ -145,7 +147,7 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: rgba(36, 10, 94, 0.9);
+  background-color: rgba(196, 12, 12, 0.654);
   overflow-x: hidden;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -162,6 +164,7 @@ body {
   padding: 2px 0px;
   text-decoration: none;
   font-size: 22px;
+  font-weight: bolder;
   color: #f1f1f1;
   display: block;
   -webkit-transition: 0.3s;
@@ -223,7 +226,7 @@ a:focus {
 .navbar-brand span {
   font-size: 24px;
   font-weight: 700;
-  color: #240a5e;
+  color: #C40C0C;
 }
 
 .custom_nav-container {
@@ -268,7 +271,7 @@ a:focus {
 }
 
 .slider_section .slider_container .img-box img {
-  width: 100%;
+  width: 145%;
 }
 
 .slider_section .slider_container .detail_container {
@@ -276,7 +279,7 @@ a:focus {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  background-color: #240a5e;
+  background-color: #C40C0C;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -300,7 +303,8 @@ a:focus {
 }
 
 .slider_section .slider_container .detail_container .detail-box h1 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans",
+ sans-serif;
   text-transform: uppercase;
   font-weight: bold;
   color: #fefdfc;
@@ -310,17 +314,17 @@ a:focus {
 .slider_section .slider_container .detail_container .detail-box a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #f22324;
+  background-color: #FF6500;
   color: #fefdfc;
   border-radius: 0;
-  border: 1px solid #f22324;
+  border: 1px solid #FF6500;
   text-transform: uppercase;
   margin-top: 35px;
 }
 
 .slider_section .slider_container .detail_container .detail-box a:hover {
   background-color: transparent;
-  color: #f22324;
+  color: #FF6500;
 }
 
 .slider_section .carousel-control-prev,
@@ -332,7 +336,7 @@ a:focus {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   background-repeat: no-repeat;
-  background-color: #240a5e;
+  background-color: #C40C0C;
   background-size: 20px;
   background-position: center;
 }
@@ -435,16 +439,16 @@ a:focus {
 .book_section form .btn-container button {
   display: inline-block;
   padding: 10px 65px;
-  background-color: #240a5e;
+  background-color: #C40C0C;
   color: #fefdfc;
   border-radius: 0;
-  border: 1px solid #240a5e;
+  border: 1px solid #C40C0C;
   margin-top: 25px;
 }
 
 .book_section form .btn-container button:hover {
   background-color: transparent;
-  color: #240a5e;
+  color: #C40C0C;
 }
 
 .book_section form .btn-container button:hover {
@@ -507,16 +511,16 @@ a:focus {
 .car_section .car_container .box .detail-box a {
   display: inline-block;
   padding: 8px 25px;
-  background-color: #f22324;
+  background-color: #FF6500;
   color: #fefdfc;
   border-radius: #000000;
-  border: 1px solid #f22324;
+  border: 1px solid #FF6500;
   margin-top: 25px;
 }
 
 .car_section .car_container .box .detail-box a:hover {
   background-color: transparent;
-  color: #f22324;
+  color: #FF6500;
 }
 
 .car_section .car_container .box::before {
@@ -558,16 +562,16 @@ a:focus {
 .about_section .detail-box a {
   display: inline-block;
   padding: 8px 25px;
-  background-color: #f22324;
+  background-color: #FF6500;
   color: #fefdfc;
   border-radius: #000000;
-  border: 1px solid #f22324;
+  border: 1px solid #FF6500;
   margin-top: 15px;
 }
 
 .about_section .detail-box a:hover {
   background-color: transparent;
-  color: #f22324;
+  color: #FF6500;
 }
 
 .best_section {
@@ -599,19 +603,19 @@ a:focus {
 .best_section .book_now .btn-box a {
   display: inline-block;
   padding: 10px 60px;
-  background-color: #f22324;
+  background-color: #FF6500;
   color: #fefdfc;
   border-radius: #000000;
-  border: 1px solid #f22324;
+  border: 1px solid #FF6500;
 }
 
 .best_section .book_now .btn-box a:hover {
   background-color: transparent;
-  color: #f22324;
+  color: #FF6500;
 }
 
 .rent_section {
-  background-color: #240a5e;
+  background-color: #C40C0C;
 }
 
 .rent_section .heading_container h2 {
@@ -679,16 +683,16 @@ a:focus {
 .rent_section .rent_container .box .price a {
   display: inline-block;
   padding: 8px 25px;
-  background-color: #f22324;
+  background-color: #FF6500;
   color: #fefdfc;
   border-radius: #000000;
-  border: 1px solid #f22324;
+  border: 1px solid #FF6500;
   font-weight: bold;
 }
 
 .rent_section .rent_container .box .price a:hover {
   background-color: transparent;
-  color: #f22324;
+  color: #FF6500;
 }
 
 .rent_section .btn-box {
@@ -873,7 +877,8 @@ a:focus {
 }
 
 .client_section {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans",
+ sans-serif;
 }
 
 .client_section .heading_container {
@@ -1037,10 +1042,10 @@ a:focus {
 .contact_section .form_container form button {
   display: inline-block;
   padding: 10px 65px;
-  background-color: #f22324;
+  background-color: #FF6500;
   color: #fefdfc;
   border-radius: 0;
-  border: 1px solid #f22324;
+  border: 1px solid #FF6500;
   text-transform: uppercase;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -1052,7 +1057,7 @@ a:focus {
 
 .contact_section .form_container form button:hover {
   background-color: transparent;
-  color: #f22324;
+  color: #FF6500;
 }
 
 .contact_section .contact_items {
@@ -1122,7 +1127,7 @@ a:focus {
 
 /* footer section*/
 .footer_section {
-  background-color: #240a5e;
+  background-color: #C40C0C;
   padding: 20px;
 }
 
