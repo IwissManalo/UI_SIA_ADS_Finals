@@ -5,6 +5,13 @@ function openNav() {
         .classList.toggle("menu_btn-style");
 }
 
+function registerAndRedirect() {
+    alert('Registration is successful');
+    setTimeout(function() {
+      window.location.href = 'managerPortal.html';
+    });
+  }
+
 $(".owl-carousel").owlCarousel({
     loop: true,
     margin: 20,
