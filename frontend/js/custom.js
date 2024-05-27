@@ -5,18 +5,29 @@ function openNav() {
         .classList.toggle("menu_btn-style");
 }
 
-function registerAndRedirect() {
+function registerManager() {
     alert('Registered Account Successfully!');
-    setTimeout(function() {
-      window.location.href = 'index.html';
-    });
+    window.location.href = 'index.html';
+}
+
+function registerEmployee() {
+    alert('Registered Employee Successfully!');
+    window.history.back();
 }
 
 function logOut() {
     alert('Log-out Successfully!');
-    setTimeout(function() {
-      window.location.href = 'index.html';
-    });
+    window.location.href = 'index.html';
+    
+}
+
+function logIn() {
+    alert('Log-In Successfully!');
+    window.location.href = 'managerPortal.html';
+}
+
+function goBack() {
+    window.history.back();
 }
 
 $(".owl-carousel").owlCarousel({
