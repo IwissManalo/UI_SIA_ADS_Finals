@@ -8,7 +8,7 @@ function openNav() {
 function registerAndRedirect() {
     alert('Registered Account Successfully!');
     setTimeout(function() {
-      window.location.href = 'managerPortal.html';
+      window.location.href = 'index.html';
     });
 }
 
