@@ -6,11 +6,18 @@ function openNav() {
 }
 
 function registerAndRedirect() {
-    alert('Registration is successful');
+    alert('Registered Account Successfully!');
     setTimeout(function() {
       window.location.href = 'managerPortal.html';
     });
-  }
+}
+
+function logOut() {
+    alert('Log-out Successfully!');
+    setTimeout(function() {
+      window.location.href = 'index.html';
+    });
+}
 
 $(".owl-carousel").owlCarousel({
     loop: true,
