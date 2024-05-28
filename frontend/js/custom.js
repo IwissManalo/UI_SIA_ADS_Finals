@@ -20,7 +20,7 @@ function logOut() {
     window.location.href = 'index.html';
     
 }
-
+// Log In as Employee or Managers
 function logIn() {
     alert('Log-In Successfully!');
     window.location.href = 'managerPortal.html';
